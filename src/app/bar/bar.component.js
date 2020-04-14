@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import bar from '../../assets/bar.png';
 
+import './bar.component.scss';
+
 function BarComponent() {
 	return (
 		<div className="BarComponent">

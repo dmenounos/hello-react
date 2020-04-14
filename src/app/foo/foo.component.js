@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import foo from '../../assets/foo.png';
 
+import './foo.component.scss';
+
 function FooComponent() {
 	return (
 		<div className="FooComponent">
