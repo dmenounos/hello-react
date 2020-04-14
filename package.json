@@ -1,0 +1,25 @@
+{
+  "name": "hello-react",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint-report": "eslint $PWD/src/**/*.js",
+    "lint-pretty": "prettier-eslint --write $PWD/src/**/*.js",
+    "start": "webpack-dev-server --hot --host 0.0.0.0",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "html-webpack-plugin": "^4.2.0",
+    "prettier-eslint": "^9.0.1",
+    "prettier-eslint-cli": "^5.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
