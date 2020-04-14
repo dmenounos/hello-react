@@ -17,5 +17,5 @@ We plan to support at least the following features:
 
 * Hello World with minimal build configuration (v1.0.0)
 * Navigation with React Router (v2.0.0)
-* Bootstrap integration
+* Bootstrap integration (v3.0.0)
 * Multiple modules
