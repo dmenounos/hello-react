@@ -15,7 +15,7 @@ We also have to have installed the [NodeJS](https://nodejs.org/) runtime environ
 
 We plan to support at least the following features:
 
-* Hello World with minimal build configuration
+* Hello World with minimal build configuration (v1.0.0)
 * Navigation with React Router
 * Bootstrap integration
 * Multiple modules
